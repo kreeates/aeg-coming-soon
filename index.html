@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AEG Prime Solutions — Coming Soon</title>
+<meta name="description" content="AEG Prime Solutions — construction, interiors, UPVC doors & windows and transparent real estate in Shillong. Our new website is on its way. Building a better tomorrow.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --black:#0D0D0F;
+    --gold:#A68C52;
+    --gold-soft:#C6B184;
+    --ivory:#ECE7D8;
+    --muted:#8F8A7D;
+    --hair:rgba(166,140,82,.22);
+    --serif:'Cormorant Garamond',Georgia,serif;
+    --sans:'Inter',-apple-system,'Segoe UI',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%}
+  body{background:var(--black);color:var(--ivory);font-family:var(--sans);font-weight:300;line-height:1.8;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--gold);color:var(--black)}
+
+  .bg{position:fixed;inset:0;z-index:0;overflow:hidden}
+  .bg img{width:100%;height:100%;object-fit:cover;filter:brightness(.32) saturate(.9);animation:drift 26s ease-in-out infinite alternate}
+  @keyframes drift{from{transform:scale(1)}to{transform:scale(1.07)}}
+  .bg::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(13,13,15,.15) 0%,rgba(13,13,15,.88) 78%),linear-gradient(180deg,rgba(13,13,15,.55),rgba(13,13,15,.25) 40%,rgba(13,13,15,.92))}
+
+  .page{position:relative;z-index:1;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:90px 24px 40px}
+
+  .logo{width:min(230px,58vw);margin-bottom:44px;animation:rise 1.2s cubic-bezier(.2,.7,.2,1) both}
+  .eyebrow{font-size:11px;letter-spacing:.5em;text-transform:uppercase;color:var(--gold);margin-bottom:26px;font-weight:400;animation:rise 1.2s .15s cubic-bezier(.2,.7,.2,1) both}
+  h1{font-family:var(--serif);font-weight:400;font-style:italic;font-size:clamp(40px,7vw,76px);line-height:1.15;color:var(--ivory);margin-bottom:26px;animation:rise 1.2s .3s cubic-bezier(.2,.7,.2,1) both}
+  h1 em{font-style:italic;color:var(--gold-soft)}
+  .lede{max-width:52ch;color:#CFC9B9;font-size:16px;margin-bottom:48px;animation:rise 1.2s .45s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+
+  .rule{width:64px;height:1px;background:var(--gold);margin:0 auto 48px;opacity:.7;animation:rise 1.2s .55s cubic-bezier(.2,.7,.2,1) both}
+
+  .cta-row{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;margin-bottom:22px;animation:rise 1.2s .65s cubic-bezier(.2,.7,.2,1) both}
+  .btn{display:inline-flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-soft);border:1px solid rgba(166,140,82,.55);padding:19px 40px;transition:background .4s,color .4s,border-color .4s;font-family:var(--sans);font-weight:400;background:rgba(13,13,15,.5);backdrop-filter:blur(6px)}
+  .btn:hover{background:var(--gold);border-color:var(--gold);color:#101010}
+  .btn svg{width:17px;height:17px;fill:currentColor}
+  .btn.ghost{border-color:rgba(236,231,216,.25);color:var(--ivory)}
+  .btn.ghost:hover{border-color:var(--gold);background:transparent;color:var(--gold-soft)}
+
+  .foot{margin-top:auto;padding-top:70px;animation:rise 1.2s .8s cubic-bezier(.2,.7,.2,1) both}
+  .foot p{font-size:11px;letter-spacing:.18em;color:var(--muted);line-height:2.1}
+  .foot .credit{margin-top:10px;font-size:10px;letter-spacing:.22em;color:rgba(143,138,125,.75)}
+
+  @media(max-width:600px){
+    .logo{width:170px;margin-bottom:36px}
+    h1{font-size:clamp(36px,11vw,52px)}
+    .lede{font-size:15px;margin-bottom:40px}
+    .btn{padding:17px 30px}
+  }
+</style>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80" alt="">
+</div>
+
+<main class="page">
+  <img class="logo" src="aeg-foot.png" alt="AEG Prime Solutions">
+  <p class="eyebrow">Coming Soon</p>
+  <h1>Building a <em>better tomorrow.</em></h1>
+  <p class="lede">AEG Prime Solutions — construction works, interior designing, UPVC doors &amp; windows, and transparent real estate in Shillong. Our new website is on its way.</p>
+
+  <div class="rule"></div>
+
+  <div class="cta-row">
+    <a class="btn" href="https://wa.me/918787613643?text=Hi%20AEG%20Prime%20Solutions%2C%20please%20notify%20me%20when%20your%20website%20launches." target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4 0-.5.1-.7l.4-.5c.1-.2.1-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.2-.7.3-.9.9-1.1 2.2-.2 3.9a11.6 11.6 0 0 0 4.5 4.2c1.7.8 2.4.9 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.4-.3z"/></svg>
+      Notify me on WhatsApp
+    </a>
+    <a class="btn ghost" href="https://wa.me/918787613643" target="_blank" rel="noopener">+91 87876 13643</a>
+  </div>
+
+  <footer class="foot">
+    <p>Lane-3, Dongkadiang, Nongmynsong, Shillong 793019</p>
+    <p class="credit">Built by sodoku</p>
+  </footer>
+</main>
+
+</body>
+</html>
